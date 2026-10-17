@@ -184,12 +184,22 @@ function genreOptions(genres: Genre[]) {
 function SongFields({ song, genres }: { song?: Song; genres: Genre[] }) {
   const options = genreOptions(genres);
   const value = song?.genre ?? options[0] ?? "Pop";
+  const [title, setTitle] = useState(song?.title ?? "");
+  const [duration, setDuration] = useState(song?.duration ?? "3:30");
+
   return (
     <div className="space-y-3">
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
       {song && <input type="hidden" name="id" value={song.id} />}
       <Field label="Title">
-        <input name="title" defaultValue={song?.title ?? ""} required placeholder="Song title" className={inputClass} />
+        <input
+          name="title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          required
+          placeholder="Song title"
+          className={inputClass}
+        />
       </Field>
       <Field label="Artist">
         <input name="artist" defaultValue={song?.artist ?? ""} placeholder="Artist name" className={inputClass} />
@@ -211,7 +221,13 @@ function SongFields({ song, genres }: { song?: Song; genres: Genre[] }) {
         <input type="color" name="color" defaultValue={song?.color ?? "#6d28d9"} className="h-10 w-full cursor-pointer rounded-xl border border-white/10 bg-white/[0.06] px-1" />
       </Field>
       <Field label="Duration">
-        <input name="duration" defaultValue={song?.duration ?? "3:30"} placeholder="3:30" className={inputClass} />
+        <input
+          name="duration"
+          value={duration}
+          onChange={(e) => setDuration(e.target.value)}
+          placeholder="3:30"
+          className={inputClass}
+        />
       </Field>
       <div className="grid grid-cols-2 gap-3">
         <Field label="Plays">
@@ -229,7 +245,16 @@ function SongFields({ song, genres }: { song?: Song; genres: Genre[] }) {
         label="Audio track"
         accept="audio/*,.mp3,.wav,.ogg,.m4a,.aac,.flac,.opus,.webm"
         defaultValue={song?.audio ?? ""}
-        hint="Paste a URL, or upload a track directly to Cloudinary (any size)."
+        hint="Paste an audio URL, or click Upload to upload a music file directly."
+        onUploaded={(_url, file) => {
+          if (!title.trim()) {
+            const cleanName = file.name.replace(/\.[^/.]+$/, "").replace(/[-_]+/g, " ").trim();
+            if (cleanName) setTitle(cleanName);
+          }
+        }}
+        onAudioDuration={(detected) => {
+          setDuration(detected);
+        }}
       />
       <MediaUpload
         name="image"
@@ -334,9 +359,12 @@ function PlaylistFields({ playlist, songs }: { playlist?: Playlist; songs: Song[
         <Field label="Description">
           <input name="description" defaultValue={playlist?.description ?? ""} placeholder="Short description" className={inputClass} />
         </Field>
-        <Field label="Image URL or ID">
-          <input name="image" defaultValue={playlist?.image ?? ""} placeholder="https://… or unsplash id" className={inputClass} />
-        </Field>
+        <MediaUpload
+          name="image"
+          label="Cover image"
+          accept="image/*"
+          defaultValue={playlist?.image ?? ""}
+        />
         <Field label="Color">
           <input type="color" name="color" defaultValue={playlist?.color ?? "#6d28d9"} className="h-10 w-full cursor-pointer rounded-xl border border-white/10 bg-white/[0.06] px-1" />
         </Field>
@@ -424,9 +452,12 @@ function ArtistFields({ artist, genres }: { artist?: Artist; genres: Genre[] }) 
       <Field label="Followers">
         <input type="number" name="followers" defaultValue={artist?.followers ?? 0} min={0} className={inputClass} />
       </Field>
-      <Field label="Image URL or ID">
-        <input name="image" defaultValue={artist?.image ?? ""} placeholder="https://… or unsplash id" className={inputClass} />
-      </Field>
+      <MediaUpload
+        name="image"
+        label="Artist image"
+        accept="image/*"
+        defaultValue={artist?.image ?? ""}
+      />
       <Field label="Color">
         <input type="color" name="color" defaultValue={artist?.color ?? "#6d28d9"} className="h-10 w-full cursor-pointer rounded-xl border border-white/10 bg-white/[0.06] px-1" />
       </Field>
@@ -486,9 +517,12 @@ function GenreFields({ genre }: { genre?: Genre }) {
       <Field label="Track count">
         <input type="number" name="count" defaultValue={genre?.count ?? 0} min={0} className={inputClass} />
       </Field>
-      <Field label="Image URL or ID">
-        <input name="image" defaultValue={genre?.image ?? ""} placeholder="https://… or unsplash id" className={inputClass} />
-      </Field>
+      <MediaUpload
+        name="image"
+        label="Genre image"
+        accept="image/*"
+        defaultValue={genre?.image ?? ""}
+      />
       <Field label="Color">
         <input type="color" name="color" defaultValue={genre?.color ?? "#6d28d9"} className="h-10 w-full cursor-pointer rounded-xl border border-white/10 bg-white/[0.06] px-1" />
       </Field>
@@ -578,3 +612,4 @@ function SecurityPanel({ onLogout }: { onLogout: () => void }) {
     </div>
   );
 }
+
