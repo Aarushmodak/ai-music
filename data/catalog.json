@@ -1,0 +1,671 @@
+{
+  "songs": [
+    {
+      "id": "noobx",
+      "title": "noobx",
+      "artist": "Unknown Artist",
+      "genre": "Pop",
+      "color": "#6d28d9",
+      "image": "https://play-lh.googleusercontent.com/oPZ1XNMwfylhC-Icx5CgfBr-doQf1PdvRoVf6LTnGCtDXsqs1ratvZ0f-3msNjb_46z03njNstjRa8Fs2VSc",
+      "duration": "3:30",
+      "audio": "/uploads/bombay-byte-mvce6dk90u0o.mp3",
+      "plays": 0,
+      "year": 2026
+    },
+    {
+      "id": "neon-dreams",
+      "title": "Neon Dreams",
+      "artist": "Luna Phase",
+      "genre": "Electronic",
+      "color": "#5528a5",
+      "image": "photo-1519608487953-e999c86e7455",
+      "duration": "3:42",
+      "audio": "/music/song1.mp3",
+      "plays": 2140000,
+      "year": 2026
+    },
+    {
+      "id": "broken-angels",
+      "title": "Broken Angels",
+      "artist": "Velvet Echoes",
+      "genre": "Pop",
+      "color": "#b34476",
+      "image": "photo-1470252649378-9c29740c9fa8",
+      "duration": "3:18",
+      "audio": "/music/song2.mp3",
+      "plays": 1820000,
+      "year": 2025
+    },
+    {
+      "id": "midnight-drive",
+      "title": "PRANA MADAN",
+      "artist": "Solar Tides",
+      "genre": "Synthwave",
+      "color": "#fbc913",
+      "image": "photo-1519681393784-d120267933ba",
+      "duration": "4:06",
+      "audio": "/music/song3.mp3",
+      "plays": 3050000,
+      "year": 2026
+    },
+    {
+      "id": "lost-in-your-eyes",
+      "title": "Lost in Your Eyes",
+      "artist": "Eclipse Heart",
+      "genre": "Pop",
+      "color": "#a9573d",
+      "image": "photo-1470770841072-f978cf4d019e",
+      "duration": "3:51",
+      "audio": "/music/song4.mp3",
+      "plays": 1460000,
+      "year": 2025
+    },
+    {
+      "id": "ocean-of-thoughts",
+      "title": "Ocean of Thoughts",
+      "artist": "Aether Mind",
+      "genre": "Ambient",
+      "color": "#176d9b",
+      "image": "photo-1518837695005-2083093ee35b",
+      "duration": "5:12",
+      "audio": "/music/song5.mp3",
+      "plays": 980000,
+      "year": 2024
+    },
+    {
+      "id": "fire-within",
+      "title": "Fire Within",
+      "artist": "Nova Iris",
+      "genre": "Rock",
+      "color": "#b34418",
+      "image": "photo-1516280440614-37939bbacd81",
+      "duration": "3:36",
+      "audio": "/music/song1.mp3",
+      "plays": 1320000,
+      "year": 2025
+    },
+    {
+      "id": "glass-horizon",
+      "title": "Glass Horizon",
+      "artist": "Pulse Riot",
+      "genre": "Electronic",
+      "color": "#6d28d9",
+      "image": "photo-1508700115892-45ecd05ae2ad",
+      "duration": "3:28",
+      "audio": "/music/song2.mp3",
+      "plays": 1980000,
+      "year": 2026
+    },
+    {
+      "id": "velvet-skies",
+      "title": "Velvet Skies",
+      "artist": "Velvet Echoes",
+      "genre": "Pop",
+      "color": "#c13e9c",
+      "image": "photo-1507838153414-b4b713384a76",
+      "duration": "3:12",
+      "audio": "/music/song3.mp3",
+      "plays": 1240000,
+      "year": 2026
+    },
+    {
+      "id": "parallax",
+      "title": "Parallax",
+      "artist": "Kairo Waves",
+      "genre": "Synthwave",
+      "color": "#2563eb",
+      "image": "photo-1519608487953-e999c86e7455",
+      "duration": "4:22",
+      "audio": "/music/song4.mp3",
+      "plays": 1690000,
+      "year": 2025
+    },
+    {
+      "id": "deep-current",
+      "title": "Deep Current",
+      "artist": "Lunar Vale",
+      "genre": "Ambient",
+      "color": "#0e7490",
+      "image": "photo-1470252649378-9c29740c9fa8",
+      "duration": "5:48",
+      "audio": "/music/song5.mp3",
+      "plays": 720000,
+      "year": 2024
+    },
+    {
+      "id": "concrete-poetry",
+      "title": "Concrete Poetry",
+      "artist": "Mono Lith",
+      "genre": "Hip Hop",
+      "color": "#a52dba",
+      "image": "photo-1519681393784-d120267933ba",
+      "duration": "3:05",
+      "audio": "/music/song1.mp3",
+      "plays": 1540000,
+      "year": 2026
+    },
+    {
+      "id": "gilded-halls",
+      "title": "Gilded Halls",
+      "artist": "Sage Hollow",
+      "genre": "Classical",
+      "color": "#a87843",
+      "image": "photo-1470770841072-f978cf4d019e",
+      "duration": "4:47",
+      "audio": "/music/song2.mp3",
+      "plays": 640000,
+      "year": 2024
+    },
+    {
+      "id": "electric-bloom",
+      "title": "Electric Bloom",
+      "artist": "Luna Phase",
+      "genre": "Electronic",
+      "color": "#8b5cf6",
+      "image": "photo-1518837695005-2083093ee35b",
+      "duration": "3:33",
+      "audio": "/music/song3.mp3",
+      "plays": 2310000,
+      "year": 2026
+    },
+    {
+      "id": "crimson-static",
+      "title": "Crimson Static",
+      "artist": "Cobalt Heart",
+      "genre": "Rock",
+      "color": "#dc2626",
+      "image": "photo-1516280440614-37939bbacd81",
+      "duration": "3:58",
+      "audio": "/music/song4.mp3",
+      "plays": 1110000,
+      "year": 2025
+    },
+    {
+      "id": "night-bloom",
+      "title": "Night Bloom",
+      "artist": "Echo Siren",
+      "genre": "Pop",
+      "color": "#db2777",
+      "image": "photo-1508700115892-45ecd05ae2ad",
+      "duration": "3:24",
+      "audio": "/music/song5.mp3",
+      "plays": 1380000,
+      "year": 2026
+    },
+    {
+      "id": "astral-tides",
+      "title": "Astral Tides",
+      "artist": "Nimbus 9",
+      "genre": "Cinematic",
+      "color": "#7c3aed",
+      "image": "photo-1507838153414-b4b713384a76",
+      "duration": "4:58",
+      "audio": "/music/song1.mp3",
+      "plays": 890000,
+      "year": 2025
+    },
+    {
+      "id": "harvest-moon",
+      "title": "Harvest Moon",
+      "artist": "Sage Hollow",
+      "genre": "Classical",
+      "color": "#b7791f",
+      "image": "photo-1519608487953-e999c86e7455",
+      "duration": "4:31",
+      "audio": "/music/song2.mp3",
+      "plays": 560000,
+      "year": 2026
+    },
+    {
+      "id": "undertow",
+      "title": "Undertow",
+      "artist": "Aether Mind",
+      "genre": "Ambient",
+      "color": "#0f766e",
+      "image": "photo-1470252649378-9c29740c9fa8",
+      "duration": "6:02",
+      "audio": "/music/song3.mp3",
+      "plays": 610000,
+      "year": 2025
+    },
+    {
+      "id": "paper-planes",
+      "title": "Paper Planes",
+      "artist": "Eclipse Heart",
+      "genre": "Pop",
+      "color": "#d58d54",
+      "image": "photo-1519681393784-d120267933ba",
+      "duration": "3:16",
+      "audio": "/music/song4.mp3",
+      "plays": 1270000,
+      "year": 2026
+    },
+    {
+      "id": "voltage",
+      "title": "Voltage",
+      "artist": "Pulse Riot",
+      "genre": "House",
+      "color": "#4338ca",
+      "image": "photo-1470770841072-f978cf4d019e",
+      "duration": "3:44",
+      "audio": "/music/song5.mp3",
+      "plays": 1760000,
+      "year": 2026
+    },
+    {
+      "id": "slow-motion",
+      "title": "Slow Motion",
+      "artist": "Echo Siren",
+      "genre": "R&B",
+      "color": "#be185d",
+      "image": "photo-1518837695005-2083093ee35b",
+      "duration": "3:39",
+      "audio": "/music/song1.mp3",
+      "plays": 1050000,
+      "year": 2025
+    },
+    {
+      "id": "afterglow",
+      "title": "Afterglow",
+      "artist": "Luna Phase",
+      "genre": "House",
+      "color": "#2563eb",
+      "image": "photo-1516280440614-37939bbacd81",
+      "duration": "4:11",
+      "audio": "/music/song2.mp3",
+      "plays": 1890000,
+      "year": 2026
+    },
+    {
+      "id": "dust-and-rain",
+      "title": "Dust and Rain",
+      "artist": "Lunar Vale",
+      "genre": "Lo-Fi",
+      "color": "#78716c",
+      "image": "photo-1508700115892-45ecd05ae2ad",
+      "duration": "3:02",
+      "audio": "/music/song3.mp3",
+      "plays": 830000,
+      "year": 2025
+    },
+    {
+      "id": "iron-tide",
+      "title": "Iron Tide",
+      "artist": "Nova Iris",
+      "genre": "Rock",
+      "color": "#b45309",
+      "image": "photo-1507838153414-b4b713384a76",
+      "duration": "4:02",
+      "audio": "/music/song4.mp3",
+      "plays": 940000,
+      "year": 2026
+    }
+  ],
+  "genres": [
+    {
+      "slug": "pop",
+      "name": "Pop",
+      "count": 1420,
+      "color": "#812ee8",
+      "image": "photo-1519608487953-e999c86e7455",
+      "blurb": "Bright hooks and unforgettable choruses, generated for the mainstream."
+    },
+    {
+      "slug": "electronic",
+      "name": "Electronic",
+      "count": 1180,
+      "color": "#087fc2",
+      "image": "photo-1470252649378-9c29740c9fa8",
+      "blurb": "Synths, pulses and machine-built grooves from the bleeding edge."
+    },
+    {
+      "slug": "synthwave",
+      "name": "Synthwave",
+      "count": 860,
+      "color": "#4726a1",
+      "image": "photo-1519681393784-d120267933ba",
+      "blurb": "Retro-future neon and chrome-drenched nostalgia."
+    },
+    {
+      "slug": "ambient",
+      "name": "Ambient",
+      "count": 940,
+      "color": "#187fa0",
+      "image": "photo-1518837695005-2083093ee35b",
+      "blurb": "Weightless textures for focus, sleep and everything between."
+    },
+    {
+      "slug": "rock",
+      "name": "Rock",
+      "count": 730,
+      "color": "#d34b39",
+      "image": "photo-1516280440614-37939bbacd81",
+      "blurb": "Driven guitars and thunderous drums, synthesized with attitude."
+    },
+    {
+      "slug": "hip-hop",
+      "name": "Hip Hop",
+      "count": 610,
+      "color": "#a52dba",
+      "image": "photo-1508700115892-45ecd05ae2ad",
+      "blurb": "Hard-hitting beats and razor-sharp flows."
+    },
+    {
+      "slug": "classical",
+      "name": "Classical",
+      "count": 420,
+      "color": "#a87843",
+      "image": "photo-1507838153414-b4b713384a76",
+      "blurb": "Orchestral movements reborn through generative composition."
+    },
+    {
+      "slug": "lo-fi",
+      "name": "Lo-Fi",
+      "count": 680,
+      "color": "#7c6f64",
+      "image": "photo-1470770841072-f978cf4d019e",
+      "blurb": "Dusty, warm and endlessly loopable study companions."
+    },
+    {
+      "slug": "jazz",
+      "name": "Jazz",
+      "count": 390,
+      "color": "#b7791f",
+      "image": "photo-1507838153414-b4b713384a76",
+      "blurb": "Improvised, blue-note complexity from a tireless machine mind."
+    },
+    {
+      "slug": "r-and-b",
+      "name": "R&B",
+      "count": 520,
+      "color": "#c13e9c",
+      "image": "photo-1519608487953-e999c86e7455",
+      "blurb": "Silky, slow-burning soul with modern production."
+    },
+    {
+      "slug": "house",
+      "name": "House",
+      "count": 770,
+      "color": "#2563eb",
+      "image": "photo-1470252649378-9c29740c9fa8",
+      "blurb": "Four-on-the-floor euphoria built for the dancefloor."
+    },
+    {
+      "slug": "cinematic",
+      "name": "Cinematic",
+      "count": 310,
+      "color": "#8b5cf6",
+      "image": "photo-1519681393784-d120267933ba",
+      "blurb": "Sweeping, emotional scores for film and imagination."
+    }
+  ],
+  "artists": [
+    {
+      "slug": "luna-phase",
+      "name": "Luna Phase",
+      "genre": "Electronic",
+      "followers": 842000,
+      "color": "#9c4ee8",
+      "image": "photo-1534528741775-53994a69daeb",
+      "bio": "Luna Phase fuses luminous synth design with pop sensibility, mapping the emotional spectrum of machines."
+    },
+    {
+      "slug": "solar-tides",
+      "name": "Solar Tides",
+      "genre": "Synthwave",
+      "followers": 620000,
+      "color": "#2089c9",
+      "image": "photo-1500648767791-00dcc994a43e",
+      "bio": "Solar Tides builds warm, analog-flavoured synthwave inspired by endless summer highways."
+    },
+    {
+      "slug": "velvet-echoes",
+      "name": "Velvet Echoes",
+      "genre": "Pop",
+      "followers": 498000,
+      "color": "#c13e9c",
+      "image": "photo-1531123897727-8f129e1688ce",
+      "bio": "Velvet Echoes writes velvet-smooth pop hooks that linger long after the last note."
+    },
+    {
+      "slug": "eclipse-heart",
+      "name": "Eclipse Heart",
+      "genre": "Pop",
+      "followers": 412000,
+      "color": "#d58d54",
+      "image": "photo-1524504388940-b1c1722653e1",
+      "bio": "Eclipse Heart crafts bittersweet anthems about love, loss and glowing horizons."
+    },
+    {
+      "slug": "aether-mind",
+      "name": "Aether Mind",
+      "genre": "Ambient",
+      "followers": 356000,
+      "color": "#178da7",
+      "image": "photo-1506794778202-cad84cf45f1d",
+      "bio": "Aether Mind composes vast, meditative soundscapes for deep focus and rest."
+    },
+    {
+      "slug": "nova-iris",
+      "name": "Nova Iris",
+      "genre": "Rock",
+      "followers": 301000,
+      "color": "#b53c63",
+      "image": "photo-1508214751196-bcfd4ca60f91",
+      "bio": "Nova Iris merges stadium-sized riffs with a neon-soaked futuristic sheen."
+    },
+    {
+      "slug": "pulse-riot",
+      "name": "Pulse Riot",
+      "genre": "Electronic",
+      "followers": 289000,
+      "color": "#7c3aed",
+      "image": "photo-1534528741775-53994a69daeb",
+      "bio": "Pulse Riot delivers relentless electronic energy built for the floor."
+    },
+    {
+      "slug": "sage-hollow",
+      "name": "Sage Hollow",
+      "genre": "Classical",
+      "followers": 274000,
+      "color": "#a87843",
+      "image": "photo-1500648767791-00dcc994a43e",
+      "bio": "Sage Hollow writes patient, ornate chamber pieces for a synthetic orchestra."
+    },
+    {
+      "slug": "kairo-waves",
+      "name": "Kairo Waves",
+      "genre": "Synthwave",
+      "followers": 241000,
+      "color": "#2563eb",
+      "image": "photo-1531123897727-8f129e1688ce",
+      "bio": "Kairo Waves rides retro arpeggios into neon-drenched horizons."
+    },
+    {
+      "slug": "mono-lith",
+      "name": "Mono Lith",
+      "genre": "Hip Hop",
+      "followers": 228000,
+      "color": "#a52dba",
+      "image": "photo-1524504388940-b1c1722653e1",
+      "bio": "Mono Lith pairs concrete-heavy beats with sharp, minimalist wordplay."
+    },
+    {
+      "slug": "lunar-vale",
+      "name": "Lunar Vale",
+      "genre": "Ambient",
+      "followers": 198000,
+      "color": "#0e7490",
+      "image": "photo-1506794778202-cad84cf45f1d",
+      "bio": "Lunar Vale drifts through glacial pads and slow-burning drones."
+    },
+    {
+      "slug": "echo-siren",
+      "name": "Echo Siren",
+      "genre": "Pop",
+      "followers": 176000,
+      "color": "#db2777",
+      "image": "photo-1508214751196-bcfd4ca60f91",
+      "bio": "Echo Siren blends airy vocals with crystalline electronic production."
+    },
+    {
+      "slug": "cobalt-heart",
+      "name": "Cobalt Heart",
+      "genre": "Rock",
+      "followers": 152000,
+      "color": "#dc2626",
+      "image": "photo-1500648767791-00dcc994a43e",
+      "bio": "Cobalt Heart writes stadium choruses with grit and chrome."
+    },
+    {
+      "slug": "nimbus-9",
+      "name": "Nimbus 9",
+      "genre": "Cinematic",
+      "followers": 132000,
+      "color": "#8b5cf6",
+      "image": "photo-1524504388940-b1c1722653e1",
+      "bio": "Nimbus 9 composes widescreen scores for imagined futures."
+    }
+  ],
+  "playlists": [
+    {
+      "slug": "synthwave-sunset",
+      "name": "Synthwave Sunset",
+      "description": "Neon-drenched retro futures for golden-hour drives.",
+      "color": "#a21caf",
+      "image": "photo-1519681393784-d120267933ba",
+      "songIds": [
+        "midnight-drive",
+        "parallax",
+        "neon-dreams",
+        "glass-horizon",
+        "electric-bloom"
+      ]
+    },
+    {
+      "slug": "midnight-focus",
+      "name": "Midnight Focus",
+      "description": "Deep ambient and cinematic textures for late-night work.",
+      "color": "#0e7490",
+      "image": "photo-1518837695005-2083093ee35b",
+      "songIds": [
+        "ocean-of-thoughts",
+        "deep-current",
+        "undertow",
+        "gilded-halls",
+        "astral-tides"
+      ]
+    },
+    {
+      "slug": "neon-workout",
+      "name": "Neon Workout",
+      "description": "High-voltage energy to power every rep.",
+      "color": "#7c3aed",
+      "image": "photo-1508700115892-45ecd05ae2ad",
+      "songIds": [
+        "glass-horizon",
+        "fire-within",
+        "electric-bloom",
+        "voltage",
+        "iron-tide"
+      ]
+    },
+    {
+      "slug": "dream-pop",
+      "name": "Dream Pop",
+      "description": "Soft, hazy pop for drifting off.",
+      "color": "#db2777",
+      "image": "photo-1519608487953-e999c86e7455",
+      "songIds": [
+        "broken-angels",
+        "lost-in-your-eyes",
+        "velvet-skies",
+        "night-bloom",
+        "paper-planes"
+      ]
+    },
+    {
+      "slug": "rock-rebellion",
+      "name": "Rock Rebellion",
+      "description": "Turn it up and break the rules.",
+      "color": "#dc2626",
+      "image": "photo-1516280440614-37939bbacd81",
+      "songIds": [
+        "fire-within",
+        "crimson-static",
+        "iron-tide",
+        "concrete-poetry"
+      ]
+    },
+    {
+      "slug": "cinematic-worlds",
+      "name": "Cinematic Worlds",
+      "description": "Sweeping scores that feel like entire universes.",
+      "color": "#8b5cf6",
+      "image": "photo-1519681393784-d120267933ba",
+      "songIds": [
+        "astral-tides",
+        "gilded-halls",
+        "harvest-moon",
+        "ocean-of-thoughts",
+        "deep-current"
+      ]
+    },
+    {
+      "slug": "synth-city",
+      "name": "Synth City",
+      "description": "A nocturnal tour through a machine-built metropolis.",
+      "color": "#2563eb",
+      "image": "photo-1470252649378-9c29740c9fa8",
+      "songIds": [
+        "parallax",
+        "midnight-drive",
+        "neon-dreams",
+        "afterglow",
+        "glass-horizon"
+      ]
+    },
+    {
+      "slug": "feel-good-pop",
+      "name": "Feel-Good Pop",
+      "description": "Bright, buoyant pop to lift any mood.",
+      "color": "#c13e9c",
+      "image": "photo-1470770841072-f978cf4d019e",
+      "songIds": [
+        "paper-planes",
+        "velvet-skies",
+        "night-bloom",
+        "broken-angels",
+        "afterglow"
+      ]
+    },
+    {
+      "slug": "low-key-lofi",
+      "name": "Low-Key Lo-Fi",
+      "description": "Warm, dusty loops for studying and unwinding.",
+      "color": "#78716c",
+      "image": "photo-1508700115892-45ecd05ae2ad",
+      "songIds": [
+        "dust-and-rain",
+        "undertow",
+        "deep-current",
+        "harvest-moon",
+        "ocean-of-thoughts"
+      ]
+    },
+    {
+      "slug": "soul-and-rb",
+      "name": "Soul & R&B",
+      "description": "Silky slow-burners with modern production.",
+      "color": "#be185d",
+      "image": "photo-1518837695005-2083093ee35b",
+      "songIds": [
+        "slow-motion",
+        "velvet-skies",
+        "lost-in-your-eyes",
+        "night-bloom"
+      ]
+    }
+  ],
+  "passwordHash": "4e0714cd2b96038490bccce86456a7dfac0c95977f6a37081cee5c57336f7bc9"
+}
